@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="custom.css">
+  <title>TheBridge</title>
+</head>
+<body>
+
+  <!-- Part 1 : This is the introduction section  -->
+
+  <div class="logoBridge">
+    <img src="logoTB.png">
+  </div>
+
+  <section class="hero">
+
+    <div class="hero-content">
+      <p>Improve your skills on your own to prepare for a better future</p>
+      <button class="btn">Register Now</button>
+    </div>
+
+  </section>
+
+  <!-- Part 2: Discover Our Courses section -->
+
+  <section class="courses">
+    <div class="courses-header">
+      <h2>Discover Our Courses</h2>
+      <button class="btn">View more</button>
+    </div>
+
+    <div class="video-container">
+      <div class="video">
+        <img src="angular.jpg">
+        <p>Spring Boot/ Angular</p>
+        <p class="price">350 DT/Month</p>
+      </div>
+      <div class="video">
+        <img src="js.jpg">
+        <p>Node JS / React</p>
+        <p class="price">350 DT/Month</p>
+      </div>
+      <div class="video">
+        <img src="flutter.jpg">
+        <p>Flutter / Firebase</p>
+        <p class="price">350 DT/Month</p>
+      </div>
+    </div>
+
+    <div class="video-container">
+      <div class="video">
+        <img src="business.jpg">
+        <p>Business Intelligence</p>
+        <p class="price">350 DT/Month</p>
+      </div>
+      <div class="video">
+        <img src="idk.jpg" >
+        <p>Artificial Intelligence</p>
+        <p class="price">350 DT/Month</p>
+      </div>
+      <div class="video">
+        <img src="devops.jpeg">
+        <p>Devops</p>
+        <p class="price">350 DT/Month</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 3: Contact Us Form -->
+  <section class="contact">
+
+    <form id="contactForm" onsubmit="return validateForm()">
+        <h2>Contact Us</h2>
+        <label for="username">NAME</label>
+        <input type="text" id="username" placeholder="Jiara Martins">
+        <label for="email">EMAIL</label>
+        <input type="text" id="email" placeholder="hello@reallygreatesite.com">
+        <label for="message">MESSAGE</label>
+        <input class="msg" type="text" id="message" placeholder="Write your message here">
+        <input type="submit" value="Send the message">
+    </form>
+</section>
+
+  <script src="test.js"></script>
+</body>
+</html>
